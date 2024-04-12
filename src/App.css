@@ -1,0 +1,19 @@
+.buttonField {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+button {
+  width: 20rem;
+  height: 3rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+}
+
+.userInputFields {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 2rem;
+}
