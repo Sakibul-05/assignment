@@ -1,4 +1,7 @@
 import React from "react";
+import profilePhoto from "../assets/profilePhoto.jpg";
+import "../CSS/pagesCSS/Profile.css";
+import Button from "../components/Button";
 
 const Profile = () => {
   return (
@@ -9,11 +12,11 @@ const Profile = () => {
       <div className="profileDetails">
         <div className="infoContainer">
           <div className="profileImage">
-            <img src="" alt="" />
+            <img src={profilePhoto} alt="profile_photo" />
           </div>
           <div className="info">
-            <p className="userName">name</p>
-            <p className="userEmail">email</p>
+            <p className="userName">Sk Sakibul Islam</p>
+            <p className="userEmail">sksakibulislam30@gmail.com</p>
           </div>
         </div>
         <div className="userBio">

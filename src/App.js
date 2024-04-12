@@ -9,16 +9,14 @@ import Profile from "./pages/Profile.jsx";
 
 const App = () => {
   return (
-    <div>
-      <HashRouter>
-        <Routes>
-          <Route path="/" element={<Landing />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/create-account" element={<CreateAccount />} />
-          <Route path="/profile/*" element={<Profile />} />
-        </Routes>
-      </HashRouter>
-    </div>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/create-account" element={<CreateAccount />} />
+        <Route path="/profile" element={<Profile />} />
+      </Routes>
+    </HashRouter>
   );
 };
 
